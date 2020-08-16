@@ -18,10 +18,10 @@ import java.util.function.Consumer;
 public class MixinClientBuiltinResourcePackProvider {
 
 	@Inject(method = "register", at = @At("RETURN"))
-	public <T extends ResourcePackProfile> void register(Consumer<T> consumer, ResourcePackProfile.Factory<T> factory, CallbackInfo info)  {
+	public void register(Consumer<ResourcePackProfile> consumer, ResourcePackProfile.Factory factory, CallbackInfo info)  {
 		File file = OptifabricSetup.optifineRuntimeJar;
 		if (file != null && file.isFile()) {
-			T optifineResourcePack = ResourcePackProfile.of("optifine", false, OptifineZipResourcePack.getSupplier(file), factory, ResourcePackProfile.InsertionPosition.TOP, ResourcePackSource.PACK_SOURCE_BUILTIN);
+			ResourcePackProfile optifineResourcePack = ResourcePackProfile.of("optifine", false, OptifineZipResourcePack.getSupplier(file), factory, ResourcePackProfile.InsertionPosition.TOP, ResourcePackSource.PACK_SOURCE_BUILTIN);
 			consumer.accept(optifineResourcePack);
 		}
 	}
