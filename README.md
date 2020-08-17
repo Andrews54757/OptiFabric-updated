@@ -1,8 +1,8 @@
 ## Old habits die hard
 
-Recently, [modmuss50](https://github.com/modmuss50), the creator of the OptiFabric mod announced that their dropping support of Optifabric and recommends using [Sodium](https://github.com/jellysquid3/sodium-fabric) instead. Sodium is an open source mod is by far currently the better mod for optimizing the Minecraft client and is a likely candidate for being the future of the optimized Minecraft experience. However, old habits die hard, and so for dumb reasons, I can't help myself but be lured back to the comforts of optifine due to past familiarity (and connected glass textures).
+Recently, [modmuss50](https://github.com/modmuss50), the creator of the OptiFabric mod announced that their dropping support of Optifabric and recommends using [Sodium](https://github.com/jellysquid3/sodium-fabric) instead. Sodium is an open source mod and is by far the better mod for optimizing the Minecraft client. However, old habits die hard, and so for dumb reasons, I can't help myself but be lured back to the comforts of optifine due to past familiarity (and connected glass textures).
 
-Thus, since modmuss50 announced that their deprecating Optifabric, it was particularily saddening as 1.16.x was released, as I really wanted to update though I would either have to leave optifine behind or get rid of my sweet suite of vanilla++ fabric mods.
+Thus, since modmuss50 announced that they were deprecating Optifabric, it was particularily saddening as 1.16.x was released, since I would either have to leave optifine behind or get rid of my sweet suite of vanilla++ fabric mods when updating.
 
 So, I am going to *try* to keep Optifabric updated in lieu of modmuss50. However, this mod's code is completely alien to me, and so it will probably be more buggy and breaking than before as I learn how it works.
 
