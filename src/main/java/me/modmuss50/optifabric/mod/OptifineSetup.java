@@ -179,7 +179,7 @@ public class OptifineSetup {
 				return (out) -> {
 					RemapUtils.getTinyRemapper(fullMappings, from, to).load(out);
 					//TODO use the mappings API here to stop neededing to change this each version
-					out.acceptField(new IMappingProvider.Member("djs", "CLOUDS", "Ldjm;"),
+					out.acceptField(new IMappingProvider.Member("djz", "CLOUDS", "Ldjm;"),
 							"CLOUDS_OF");
 					out.acceptField(new IMappingProvider.Member("dzw", "renderDistance", "I"),
 							"renderDistance_OF");
