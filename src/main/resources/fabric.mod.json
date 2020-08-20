@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "optifabric",
+  "version": "${version}",
+
+  "name": "Optifabric",
+  "description": "Optifabric is a mod that loads optifine into fabric",
+  "authors": [
+    "Modmuss50",
+    "Chocohead"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "mixins" :[
+    "optifabric.mixins.json"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/optifabric/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.modmuss50.optifabric.mod.Optifabric"
+    ]
+  },
+  "custom": {
+    "fabric-renderer-api-v1:contains_renderer" : true,
+    "mm:early_risers": [
+      "me.modmuss50.optifabric.mod.OptifabricSetup"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.8.8",
+    "minecraft": "1.16.2"
+  }
+}
