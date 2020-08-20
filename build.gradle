@@ -49,7 +49,7 @@ dependencies {
 	include "org.slf4j:slf4j-simple:${project.slf4j_version}"
 	include "org.slf4j:slf4j-api:${project.slf4j_version}"
 
-	modRuntime "me.shedaniel:RoughlyEnoughItems:4.5.4"
+	modRuntime "me.shedaniel:RoughlyEnoughItems:5.2.3"
 	modCompileOnly("me.shedaniel.cloth.api:cloth-client-events-v0:1.0.4") {
 		transitive(false)
 	}
