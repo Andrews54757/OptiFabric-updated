@@ -1,41 +1,12 @@
-# The future of OptiFabric and Recommended alternatives
+## Old habits die hard
 
-In 1.15 and 1.16 optifine has been casuing a lot of incompatibilities with a growing number of mods, this is due to the way optifine changes the vanilla code in increasingly invasive and incompatible ways. Fixing these crashes isn't easy or fun and takes a lot of time and energy that I don't have.
+Recently, [modmuss50](https://github.com/modmuss50), the creator of the OptiFabric mod announced that their dropping support of Optifabric and recommends using [Sodium](https://github.com/jellysquid3/sodium-fabric) instead. Sodium is an open source mod and is by far the better mod for optimizing the Minecraft client. However, old habits die hard, and so for dumb reasons, I can't help myself but be lured back to the comforts of optifine due to past familiarity (and connected glass textures).
 
-I have no plans to continue updating OptiFabric going forward, thus with the help of LambdAurora I have compiled a list of mods that replace and supersede Optifine:
+Thus, since modmuss50 announced that they were deprecating Optifabric, it was particularily saddening as 1.16.x was released, since I would either have to leave optifine behind or get rid of my sweet suite of vanilla++ fabric mods when updating.
 
-## [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
+So, I am going to *try* to keep Optifabric updated in lieu of modmuss50. However, this mod's code is completely alien to me, and so it will probably be more buggy and breaking than before as I learn how it works.
 
-[Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) is a free and open source fabric mod made by JellySquid that [drastically increases the performance](https://www.youtube.com/watch?v=0fAB6pJK6U4) of Minecraft. Sodium utilises modern rendering techniques along with a range of other optimisations.  More more information can be found on the download page linked.
-
-![](https://cdn.discordapp.com/attachments/602805058316533770/731936807909851296/compare.png)
-
-
-## Other recommended mods
-
-### [Canvas](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer)
-
-[Canvas](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer) focuses the use of shaders to improve the visual appearance of the game along with providing performance improvements. (*Incompatible with Sodium*)
-
-### [Ok Zoomer](https://www.curseforge.com/minecraft/mc-mods/ok-zoomer) - [Logicial Zoom](https://www.curseforge.com/minecraft/mc-mods/logical-zoom) - [WI Zoom](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)
-
-These 3 mods are each a great replacement to optifine's much loved zoom feature. They provide more options than optifine's zoom functionality. (*You only need to install one*)
-
-### [Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic)
-
-[Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic) provides support for resource packs that use Optifine's custom color features.
-
-### [LambDynamicLights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights)
-
-[LambDynamicLights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) add dynamic lights to Minecraft similar to Optifine's.
-
-### [motioNO](https://www.curseforge.com/minecraft/mc-mods/motiono)
-
-[motioNO](https://www.curseforge.com/minecraft/mc-mods/motiono) is a client only mod that prevents Minecraft from changing the FOV when sprinting.
-
-### [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) and [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
-
-[Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) provides a great improvement to server performance while [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) targets lighting performance. Both mods can be installed on the client or the server and are also made by Jelly Squid.
+Still, don't rely on it too much. I may just give up and embrace sodium...
 
 
 ## Need Help?
