@@ -33,11 +33,15 @@ public class OptifineFixer {
 		//net/minecraft/server/world/ThreadedAnvilChunkStorage
 		registerFix("class_3898", new ThreadedAnvilChunkStorageFix());
 
+		//net/minecraft/entity/mob/MobEntity
+		registerFix("class_1308", new MobEntityFix());
+
 		//net/minecraft/client/particle/ParticleManager
 		skipClass("class_702");
 
 		//net/minecraft/client/render/item/HeldItemRenderer$1
 		skipClass("class_759$1");
+
 	}
 
 	private void registerFix(String className, ClassFixer classFixer) {
