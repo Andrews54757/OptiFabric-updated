@@ -6,7 +6,11 @@ Thus, since modmuss50 announced that they were deprecating Optifabric, it was pa
 
 So, I am going to *try* to keep Optifabric updated in lieu of modmuss50. However, this mod's code is completely alien to me, and so it will probably be more buggy and breaking than before as I learn how it works.
 
-Still, don't rely on it too much. I may just give up and embrace sodium...
+Don't rely on it too much. I may just give up and embrace sodium like any other sane person would do...
+
+### Because I do not yet know what I am doing, I need YOUR help!
+
+If you do know what you are doing, and know of a way to improve this mod, please make a pull request! That is always super helpful. If you find an issue, please make sure to report it here! Otherwise I won't know there is a problem.
 
 
 ## Need Help?
