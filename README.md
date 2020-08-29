@@ -1,3 +1,8 @@
+# Update
+Chocohead (the creator of Fabric-ASM which this mod relies on), has created their own fork to Optifine which is objectively better. This repository has now been archived, if you intend to use Optifabric in the latest versions of the game, please refer to Chocohead's fork instead.
+
+https://github.com/Chocohead/OptiFabric
+
 ## Old habits die hard
 
 Recently, [modmuss50](https://github.com/modmuss50), the creator of the OptiFabric mod announced that their dropping support of Optifabric and recommends using [Sodium](https://github.com/jellysquid3/sodium-fabric) instead. Sodium is an open source mod and is by far the better mod for optimizing the Minecraft client. However, old habits die hard, and so for dumb reasons, I can't help myself but be lured back to the comforts of optifine due to past familiarity (and connected glass textures).
